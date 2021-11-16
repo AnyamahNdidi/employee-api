@@ -22,7 +22,7 @@ const employeeShema = mongoose.Schema({
     require: true
   },
   active: {
-    type: string,
+    type: String,
     require: true
   }
 
